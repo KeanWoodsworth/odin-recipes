@@ -7,6 +7,21 @@ body {
 .head {
   text-align: center;
 }
+.pictext {
+  height: 300px;
+  columns: 2;
+  border-top: 4px solid rgb(128, 18, 18);
+  border-bottom: 4px solid rgb(128, 18, 18);
+  margin: 16px 0px;
+  padding: 16px 0px;
+}
+.pictext img {
+  width: auto;
+  height: 100%;
+}
+.pictext .descrip {
+  margin-right: 30%;
+}
 .return {
   font-size: 20px;
   background-color: rgb(175, 227, 120);
@@ -49,9 +64,9 @@ body {
   width: 500px;
 }
 .descrip {
-  border-top: 4px solid rgb(128, 18, 18);
+/*  border-top: 4px solid rgb(128, 18, 18);
   border-bottom: 4px solid rgb(128, 18, 18);
-  margin: 16px 0px;
+  margin: 16px 0px;*/
 }
 .descrip h2 {
   font-size: 28px;
