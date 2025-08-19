@@ -2,9 +2,19 @@ body {
   background-color: antiquewhite;
   font-family: Verdana, Tahoma, sans-serif;
   color: #000000;
+  padding: 16px;
 }
-h1 {
+.head {
   text-align: center;
+}
+.return {
+  font-size: 20px;
+  background-color: rgb(175, 227, 120);
+  color: #000000;
+  text-decoration: none;
+}
+.return:hover {
+  font-weight: bold;
 }
 #container {
   padding: 32px;
@@ -25,7 +35,7 @@ h1 {
   color: #000000;
 }
 .card a:hover {
-  color:rgb(128, 18, 18);
+  color: rgb(128, 18, 18);
   background-color: aliceblue;
 }
 .card:hover {
@@ -34,4 +44,31 @@ h1 {
 .card img {
   width: auto;
   height: 150px;
+}
+.pic {
+  width: 500px;
+}
+.descrip {
+  border-top: 4px solid rgb(128, 18, 18);
+  border-bottom: 4px solid rgb(128, 18, 18);
+  margin: 16px 0px;
+}
+.descrip h2 {
+  font-size: 28px;
+}
+.instruct,
+.note {
+  padding: 8px 16px;
+  font-size: 18px;
+}
+.instruct {
+  background-color: rgb(175, 227, 120);
+  padding: 8px 16px;
+  border: 3px 0px solid rgb(128, 18, 18);
+  border-style: outset;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.instruct li {
+  margin: 8px;
 }
