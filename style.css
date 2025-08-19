@@ -1,0 +1,37 @@
+body {
+  background-color: antiquewhite;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #000000;
+}
+h1 {
+  text-align: center;
+}
+#container {
+  padding: 32px;
+  background-color: rgb(175, 227, 120);
+  column-count: 3;
+  text-align: center;
+}
+.card {
+  font-size: 1.5em;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  background-color: rgb(255, 254, 238);
+}
+.card a {
+  text-decoration: none;
+  color: #000000;
+}
+.card a:hover {
+  color:rgb(128, 18, 18);
+  background-color: aliceblue;
+}
+.card:hover {
+  background-color: aliceblue;
+}
+.card img {
+  width: auto;
+  height: 150px;
+}
