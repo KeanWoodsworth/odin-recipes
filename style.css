@@ -51,7 +51,8 @@ body {
   font-size: 1.5em;
   margin: 0 auto;
   padding: 10px;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
+  border-radius: 2%;
   background-color: rgb(255, 254, 238);
 }
 .card a {
@@ -59,15 +60,14 @@ body {
   text-decoration: none;
   flex-direction: column;
   color: #000000;
-  justify-items: end;
   height: 100%;
 }
 .card a:hover {
   color: rgb(128, 18, 18);
-  background-color: aliceblue;
+  font-weight: bold;
 }
 .card:hover {
-  background-color: aliceblue;
+  border: 2px solid rgb(128, 18, 18);
 }
 .card img {
   display: flex;
@@ -78,7 +78,7 @@ body {
 }
 .card a div {
   display: flex;
-  margin-top: 8px;
+  margin-top: 10px;
   align-self: center;
 }
 .pic {
