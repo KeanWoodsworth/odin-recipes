@@ -59,7 +59,8 @@ body {
   text-decoration: none;
   flex-direction: column;
   color: #000000;
-  justify-content:flex-end;
+  justify-items: end;
+  height: 100%;
 }
 .card a:hover {
   color: rgb(128, 18, 18);
@@ -70,12 +71,15 @@ body {
 }
 .card img {
   display: flex;
-  margin-bottom: auto;
   width: 400px;
   flex-basis: auto;
+  margin-bottom: auto;
+
 }
 .card a div {
+  display: flex;
   margin-top: 8px;
+  align-self: center;
 }
 .pic {
   width: 500px;
